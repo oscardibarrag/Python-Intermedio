@@ -28,4 +28,4 @@ async def mostrar_libro(id: int):
 
 @app.post("/Libros/")
 async def insertar_libro(libro: Libro):
-    return {"message": f"Libro: {libro.titulo} insertado correctamente"} 
+    return {"message": f"Libro: {libro.titulo} insertado correctamente"}  
